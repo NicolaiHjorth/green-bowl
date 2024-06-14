@@ -78,7 +78,7 @@ export default function Page() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8">
         {bowls.map((bowl, index) => (
-          <div key={index} className="flex flex-col items-center">
+          <div key={index} className="flex flex-col items-center p-4 rounded transition-shadow duration-300 ease-in-out hover:shadow-lg hover:bg-white">
             <Image
               className="relative cursor-pointer"
               src={bowl.src}
